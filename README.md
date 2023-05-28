@@ -1,7 +1,5 @@
 MrBayes is a popular software package for Bayesian inference of phylogenetic trees. It is primarily used in the field of evolutionary biology to estimate the evolutionary relationships between species or other biological entities based on genetic sequence data. Here's a general overview of how MrBayes works:
 
-Input Data: MrBayes takes as input a DNA, RNA, or protein sequence alignment in a specific file format, such as Nexus or Phylip. This alignment represents the genetic sequences of the species or taxa under study.
-
 Model Specification: MrBayes allows you to specify various evolutionary models and parameters. These models describe the substitution patterns and rates of genetic changes that have occurred over time. You can choose different substitution models, rate heterogeneity models, and other model settings according to the specific characteristics of your data.
 
 Markov Chain Monte Carlo (MCMC) Sampling: MrBayes uses a Markov Chain Monte Carlo (MCMC) algorithm to sample from the posterior distribution of trees. MCMC is a computational technique that generates a sequence of samples, where each sample represents a possible phylogenetic tree. The algorithm explores the space of possible trees based on the likelihood of the data and the prior probability distributions specified in the model.
